@@ -207,7 +207,13 @@ const TeamInfo = [
 ];
 
 // still not decided
-const JudgesInfo = [
+// const JudgesInfo = [
+  // {
+  //   name: 'Shouryan',
+  //   role: 'Judge',
+  //   linkedin: 'https://www.linkedin.com/in/shouryannikam/',
+  //   github: '',
+  // }
   /* [
     //Array 1
     {
@@ -249,7 +255,7 @@ const JudgesInfo = [
       img: zoha
     }
   ] */
-];
+// ];
 
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
@@ -327,7 +333,7 @@ export {
   Prizeinfo,
   sponsorLogos,
   TeamInfo,
-  //JudgesInfo,
+  // JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
   calenderStartingDate

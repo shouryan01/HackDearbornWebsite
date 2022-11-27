@@ -1,20 +1,18 @@
-import {UseMedia} from 'hooks/useMedia';
-import {useState} from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
-import {Accordion} from '../../components/Accordian/index.jsx';
+import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
+import { Accordion } from '../../components/Accordian/index.jsx';
 import Footer from '../../components/Footer/index.jsx';
-import {Myinfo} from '../../components/Landing/index.jsx';
-import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
+import { Myinfo } from '../../components/Landing/index.jsx';
+import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
   SponsorsHead,
   SponsorUS
 } from '../../components/Sponsors/sponsors.jsx';
-import {Member} from '../../components/Team';
+import { Member } from '../../components/Team';
 import {
   FOOTER,
   frequentlyAskedQuestions,
@@ -78,8 +76,8 @@ const FrequentlyAsked = (props, index) => {
 };
 
 export default function HomePage() {
-  const [media, setMedia] = useState();
-  UseMedia('min-width', 1000, setMedia);
+  // const [media, setMedia] = useState();
+  // UseMedia('min-width', 1000, setMedia);
 
   return (
     <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>

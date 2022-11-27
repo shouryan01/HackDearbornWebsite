@@ -82,4 +82,5 @@ class Accordion extends React.Component {
   }
 }
 
-export {Accordion};
+export { Accordion };
+

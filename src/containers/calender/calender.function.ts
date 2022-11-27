@@ -1,5 +1,5 @@
-import {EventArrayType} from '../../../types/calenderState.types';
-import {weekDays} from '../../constants';
+import { EventArrayType } from '../../../types/calenderState.types';
+import { weekDays } from '../../constants';
 
 export const getDatesForMonth = (state: any) => {
   const [firstDay, lastDay, lastDayOfPreviousMonth] = [
@@ -10,7 +10,7 @@ export const getDatesForMonth = (state: any) => {
 
   const [
     firstDayOfTheMonth,
-    lastDayOfTheMonth,
+    // lastDayOfTheMonth,
     totalNumOfDays,
     totalNumOfDaysInPreviousMonths
   ] = [
@@ -20,12 +20,12 @@ export const getDatesForMonth = (state: any) => {
       month: 'long',
       day: 'numeric'
     }),
-    lastDay.toLocaleDateString('en-us', {
-      weekday: 'long',
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    }),
+    // lastDay.toLocaleDateString('en-us', {
+    //   weekday: 'long',
+    //   year: 'numeric',
+    //   month: 'long',
+    //   day: 'numeric'
+    // }),
     lastDay.getDate(),
     lastDayOfPreviousMonth.getDate()
   ];

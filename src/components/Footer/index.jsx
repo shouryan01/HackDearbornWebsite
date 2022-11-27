@@ -22,7 +22,7 @@ const GithubTemplate = ({hideTemplate}) => {
           Workshops, details and jazz coming soon...
         </p>
       </div>
-      <img onClick={hideTemplate} src={cross} />
+      <img onClick={hideTemplate} src={cross} alt="" />
     </div>
   );
 };
