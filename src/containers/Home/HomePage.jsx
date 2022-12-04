@@ -15,10 +15,7 @@ import {
 import { Member } from '../../components/Team';
 import {
   FOOTER,
-  frequentlyAskedQuestions,
-  Prizeinfo,
-  sponsorLogos,
-  TeamInfo
+  frequentlyAskedQuestions, sponsorLogos, TeamInfo, TrackInfo
 } from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
@@ -37,12 +34,12 @@ const SponsorGroup = (props, index) => {
   );
 };
 
-// Prize group
-const PrizeGroup = (props, index) => {
+// Track group
+const TrackGroup = (props, index) => {
   return (
-    <Row key={index}>
+    <Row key={index} style={{textAlign: "center"}}>
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
+        <Col key={i} sm={12} lg={6} md={6} style={{textAlign: "center"}}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
@@ -101,7 +98,7 @@ export default function HomePage() {
       </div>
       <Container fluid>
         {/* Logo section  */}
-        <Row className=" logoSection">
+        <Row className="logoSection" id="about">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
           </Col>
@@ -110,22 +107,20 @@ export default function HomePage() {
           </Col>
         </Row>
 
-        {/* ********Frequently asked Questions here ***** */}
-        <div className="Myfaqs" id="faq">
-          {frequentlyAskedQuestions.map(FrequentlyAsked)}
-          {/* ********Frequently asked Questions ending here ***** */}
-        </div>
 
         {/* ********Tracks here ***** */}
-        <Row className="prizesection" id="prizes">
+        <Row className="prizesection" id="tracks" style={{marginTop: "12%", paddingTop: "5%"}}>
           <PrizeHeading type="Tracks" />
-          {Prizeinfo.map(PrizeGroup)}
+            {TrackInfo.map(TrackGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
-        <Row className="prizesection non-coding">
+
+        <div id="prizes" style={{marginTop: "6%"}}></div>
+        <Row className="prizesection">
+          <h1> {"‎ "}</h1>
           <PrizeHeading type="Prizes" />
-          <h2>coming soon</h2>
+          <h2>coming soon... (hint CASH and Apple products!)</h2>
         </Row>
 
         {/* ********Sponsors here ***** */}
@@ -137,8 +132,19 @@ export default function HomePage() {
         </Row>
         {/* ********Sponsors ending here ***** */}
 
+
+        {/* ********Frequently asked Questions here ***** */}
+        <div className="PrizeHeading" style={{paddingTop: "6%"}}  id="faq">
+          <h1>Frequestly Asked Questions</h1>
+        </div>
+        <div className="Myfaqs">
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
+
         {/* ********Team here ***** */}
-        <h1 id="team">Our Team</h1>
+        {/* <Row className="sponorSection" id="team"></Row> */}
+        <h1 id="team" style={{paddingTop: "6%"}}>Our Team</h1>
         {FOOTER.JOIN_TEAM.required}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}

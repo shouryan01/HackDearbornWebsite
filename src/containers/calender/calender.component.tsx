@@ -1,13 +1,19 @@
 // import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useContext, useEffect } from 'react';
+import Swal from 'sweetalert2';
+import withReactContent from 'sweetalert2-react-content';
 import { CALENDER_VIEW } from '../../constants';
 import { calenderContext } from '../../Context/calender.context';
 import { Flexbox } from '../../elements/Flexbox';
 import { calenderMainLogic } from './calender.function';
 import CalenderLayout from './calender.layout';
-
 import * as H from './style';
+
+
+const MySwal = withReactContent(Swal)
+
+
 
 const CalenderView = () => {
   const contextTesting = useContext(calenderContext);
@@ -36,7 +42,10 @@ const CalenderView = () => {
                 data: state.dates[j].events
               });
             } else {
-              alert('No events');
+              MySwal.fire({
+                title: <p>No events on this day!</p>,
+                
+              })
             }
           }}
           key={j}

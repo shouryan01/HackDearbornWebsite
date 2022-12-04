@@ -35,8 +35,9 @@ const CalenderLayout: React.FC<CalenderLayoutProps> = ({
             alignCenter
             className="card-top-inner-item"
             onClick={() => dispatch(handleActionBack)}
+            style={{fontSize: 25}}
           >
-            P
+            {'<'}
           </Flexbox>
           <Flexbox
             justifyCenter
@@ -45,8 +46,9 @@ const CalenderLayout: React.FC<CalenderLayoutProps> = ({
               state.index !== CALENDER_VIEW && 'card-top-inner-item__disabled'
             }`}
             onClick={() => dispatch(handleActionProcced)}
+            style={{fontSize: 25}}
           >
-            N
+            {'>'}
           </Flexbox>
         </Flexbox>
       </Flexbox>

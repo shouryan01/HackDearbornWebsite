@@ -17,9 +17,11 @@
 
   @media (min-width: 1000px) {
     .nav_bar-offset-crossed {
-      background-color: #a1be9f;
+      background-color: #0e580a;
       height: 72px;
       box-shadow: 0 8px 16px 0 rgba(145, 158, 171, 0.16);
+      border-radius: 0 0 15px 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
     }
   }
 
@@ -49,7 +51,9 @@
     letter-spacing: 1.3px;
 
     &:hover {
-      opacity: 0.8;
+      // opacity: 0.8;
+      // color: rgb(68, 255, 68);
+      color: lightgreen
     }
   }
 

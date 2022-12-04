@@ -6,9 +6,12 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  * or you can provide a cloud link in src also
  */
 
+import Amazon from './Assets/sponsorsLogos/Amazon.png';
 import Bosch_logo from './Assets/sponsorsLogos/Bosch_logo.png';
+import CECS from './Assets/sponsorsLogos/CECS.png';
 import Etas from './Assets/sponsorsLogos/etas.png';
 import Ford from './Assets/sponsorsLogos/Ford.png';
+import Forvia from './Assets/sponsorsLogos/Forvia.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -19,6 +22,7 @@ import Ford from './Assets/sponsorsLogos/Ford.png';
 
 import faith from './Assets/teami/faith.png';
 import huda from './Assets/teami/huda.png';
+import kanika from './Assets/teami/kanika.jpg';
 import rohit from './Assets/teami/rohit.jpg';
 import shams from './Assets/teami/shams.jpg';
 import shouryan from './Assets/teami/shouryan.png';
@@ -27,15 +31,17 @@ import shouryan from './Assets/teami/shouryan.png';
 const TOP_SECTION = {
   TITLE: 'Hack-Dearborn',
   Typed_effect: [
-    '36 hours in-person event',
-    'Eat, Network, and CODE!',
-    'Build Your Resume!'
+    '24 hours in-person event',
+    'Eat, Network and CODE!',
+    'Win Prizes!',
+    'Land Internships!'
   ],
   SHORT_DESCRIPTION:
-    'Join us on 10th March 2023 with over 100 students from across Michigan for 36 hours of creation, innovation, & fun.',
+    'Join us on March 11th 2023 for 24 hours of fun, innovation and creation!',
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: 'https://tally.so/r/3jaKK6',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/mOD6VR'
+  HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/mOD6VR',
+  GDSC_LINK: 'https://gdsc.community.dev/university-of-michigan-dearborn-mi/',
 };
 
 //faith
@@ -84,36 +90,106 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 10,
-  year: 2022
+  month: 3,
+  year: 2023
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '11-3-2023',
     events: [
       {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
+        title: 'Check-In Begins!',
+        timings: '10 AM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Sponsor Fair',
+        timings: '10 AM - 12 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Opening Ceremony',
+        timings: '12 PM - 12:45 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Team Formation',
+        timings: '12:45 PM - 1:30 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Hacking Begins!',
+        timings: '1 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Workshop',
+        timings: '2 PM - 3 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Speaker',
+        timings: '3 PM - 4 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Workshop',
+        timings: '4 PM - 5 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Game',
+        timings: '5 PM - 6 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Dinner!',
+        timings: '6 PM - 7:30 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Game',
+        timings: '9 PM - 10 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
     ]
   },
   {
-    day: '5-12-2021',
+    day: '12-3-2023',
     events: [
       {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
+        title: 'Midnight Snack',
+        timings: '12 AM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
+        title: 'Speaker',
+        timings: '10 AM - 11 AM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'End of Hacking!',
+        timings: '1 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Lunch',
+        timings: '1 PM - 2 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Demo Tables',
+        timings: '2 PM - 3 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Closing Ceremony!',
+        timings: '3:45 PM - 4:30 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
     ]
-  }
+  },
 ];
 
 /** ICON
@@ -128,15 +204,15 @@ const schedule = [
  * in a group of 3.
  */
 
-//huda
-const Prizeinfo = [
+
+const TrackInfo = [
   [
     //Array 1
     {
       icon: <i></i>,
       type: 'Automotive',
       content:
-        'Vroom vroom. Detroit is the motor city. Create or implement a creative solution to an automotive issue or idea'
+        'Vroom vroom! Detroit is the motor city. Create or implement a creative solution to an automotive issue or idea'
     },
     {
       icon: <i></i>,
@@ -144,6 +220,8 @@ const Prizeinfo = [
       content:
         'They say it takes a village to raise a child, and this is a way to make a difference in your village (community)! Social issues include community service, inclusion, and healthcare. Teams will create solutions in these areas'
     },
+  ],
+  [
     {
       icon: <i></i>,
       type: 'Creativity Track',
@@ -157,8 +235,8 @@ const Prizeinfo = [
         'For all the tree huggers and earth lovers out there, we see you! Propose a challenge statement to teams that addresses sustainability: pollution, climate change, and recycling.'
     }
   ]
-  //Array 2
 ];
+
 
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
@@ -197,12 +275,12 @@ const TeamInfo = [
       role: 'Huda',
       linkedin: 'https://www.linkedin.com/in/huda248/',
       img: huda
+    },
+    {
+      role: 'Kanika',
+      linkedin: 'https://www.linkedin.com/in/kanikamohan7/',
+      img: kanika
     }
-    // {
-    //   role: 'Maryam',
-    //   linkedin: 'https://www.linkedin.com/in/maryamjaratli/',
-    //   img: maryam
-    // }
   ]
 ];
 
@@ -254,7 +332,7 @@ const TeamInfo = [
       linkedin: '',
       img: zoha
     }
-  ] */
+  ] */  
 // ];
 
 /** Instructions
@@ -265,7 +343,8 @@ const TeamInfo = [
 
 //all of us
 const sponsorLogos = [
-  [{src: Ford}, {src: Bosch_logo}, {src: Etas}] //Array 1
+  [{src: Ford}, {src: Bosch_logo}, {src: Etas}, {src: Amazon}], //Array 1
+  [{src: Forvia}, {src: CECS}]
   // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
@@ -282,44 +361,44 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24+ hour event where "hackers" all over the globe or particular area will collaborate on creating a functioning software and/or hardware by the end of the event for fame and fortune. Okay, maybe not fame or fortune, but definitely cool prizes and bragging rights.'
+          'A hackathon is a 24+ hour event where "hackers" will collaborate on creating a functioning software and/or hardware project for fame and fortune. Okay, maybe not fame or fortune, but definitely cool prizes and bragging rights.'
       },
       {
         label: 'Who can attend?',
         content:
-          'Dearborn Hacks is open to all currently enrolled college students in the southeast area.'
+          "Hack Dearborn is open to all currently enrolled college students, especially beginners!. ALL majors are welcome - we'll have workshops to help non-technical students get started and build something really cool!"
       },
       {
         label: 'I am a first time hacker, what should I do?',
         content:
-          'No worries, we love to welcome first time hackers starting their hacking journey.'
+          "We love to welcome first time hackers starting their hacking journey. We'll have tons of mentors and workshops to help you get started. We'll also have a beginner track for you to compete in!"
       },
       {
-        label: 'How team formation works?',
+        label: 'How do teams work?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "You can form team with up to 4 members. We encourage you to bring your friends to form a team! If you don't have a team, there'll be plenty of opportunities for you to meet other hackers and form a team!"
       }
     ],
     [
       {
-        label: 'How to register myself in the hackathon?',
+        label: 'How to register for the hackathon?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'All you need is to fill our form above! We will send you an email confirmation and a link to join the Discord.'
       },
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at @gdscdearborn or dearbornhacks@gmail.com, we would happy to help you.'
+          'Reach us directly at dearbornhacks@gmail.com, we would happy to help you.'
       },
       {
         label: 'Can I volunteer?',
         content:
-          'Yes we are actively looking for volunteers, fill the form (in footer section) we will be happy to have you.'
+          'Yes we are actively looking for volunteers! Just fill in the form above we will be happy to have you. (plus some special perks just for volunteers!)'
       },
       {
         label: 'Will there be swag?',
         content:
-          'Yes! Participants will recieving swag! Come and see whose swag it is...'
+          'Yes! All participants will receive some swag. Those who end up demoing their project will receive even more swag!'
       }
     ]
   ]
@@ -330,7 +409,7 @@ export {
   MIDDLE_SECTION,
   SOCIALS,
   FOOTER,
-  Prizeinfo,
+  TrackInfo,
   sponsorLogos,
   TeamInfo,
   // JudgesInfo,

@@ -16,10 +16,9 @@ const GithubTemplate = ({hideTemplate}) => {
       <div className="template-left">
         <p>
           Join us to{' '}
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>,
-          where we will be hosting PUBLIC workshops, tech talks, panel
+          <a href={TOP_SECTION.GDSC_LINK}>Level Up</a>,
+          where we will be hosting workshops, tech talks, panel
           discussions, and career sessions!
-          Workshops, details and jazz coming soon...
         </p>
       </div>
       <img onClick={hideTemplate} src={cross} alt="" />
@@ -81,19 +80,19 @@ const Footer = () => {
         </div>
         <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
+            <Btn type="Register" overlay="Volunteer Registration" />
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
+              <Btn type="Volunteer" class="Volunteer" overlay="Volunteer Registration" />
             </a>
           )}
         </div>
         <div className="footer_info">
           <p>
-            Contact us: dearbornhacks@gmail.com{' '}
+            Contact us:  
             <a href={SOCIALS.email}>
-              <em>{SOCIALS.mail}</em>
+              {' '}dearbornhacks@gmail.com{' '}
             </a>{' '}
           </p>
 

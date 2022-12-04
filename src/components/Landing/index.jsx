@@ -1,4 +1,4 @@
-import {TOP_SECTION} from '../../Module/General';
+import { TOP_SECTION } from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
 
@@ -23,6 +23,8 @@ const About = () => {
   );
 };
 
+
+// home page info
 const Myinfo = () => {
   return (
     <div className="Myinfo">
@@ -31,7 +33,7 @@ const Myinfo = () => {
       <div className="buttom-group">
         <a href={TOP_SECTION.JUDGES_FORM_LINK}>
           {' '}
-          <Btn class="sponsor_btn" type="Volunteer" overlay="Fill the form" />
+          <Btn class="sponsor_btn" type="Volunteer" overlay="Volunteer Registration" />
         </a>
 
         <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
@@ -39,7 +41,7 @@ const Myinfo = () => {
           <Btn
             class="register"
             type="Register "
-            overlay="Hackers registration"
+            overlay="Hacker registration"
           />
         </a>
       </div>
@@ -47,4 +49,5 @@ const Myinfo = () => {
   );
 };
 
-export {Btn, Myinfo};
+export { Btn, Myinfo };
+

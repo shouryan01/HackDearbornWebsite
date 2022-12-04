@@ -11,7 +11,7 @@ export const Container = styled.div`
   margin: 20px 0;
 
   .card-top {
-    background-color: #b2b2b2;
+    background-color: #4c8d47;
     height: 80px;
     border-radius: 8px 8px 0 0;
     padding: 0 5%;
@@ -21,7 +21,7 @@ export const Container = styled.div`
       width: 20%;
 
       &-item {
-        background: #bbbbbb;
+        background: darkyellow;
         width: 35px;
         height: 35px;
         border-radius: 50%;

@@ -1,6 +1,6 @@
 import HomePage from 'containers/Home/HomePage';
 import { useEffect, useRef, useState } from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import styled from 'styled-components';
 import './styles.scss';
 
@@ -21,7 +21,7 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: 35%;
-      background-color: rgba(50, 13, 136);
+      background-color: rgba(92, 139, 79);
     }
   }
 `;
@@ -71,29 +71,37 @@ const NAVBAR = () => {
           <div className="nav-content" ref={navigation}>
             <ul>
               <li>
-                <Link to={`#home`}>
+                {/* <Link to={`#home`}>
                   <span className="links">Home </span>{' '}
-                </Link>
+                </Link> */}
+                <a href="#home" className='links'>Home</a>
               </li>
               <li>
-                <Link to={`#faq`}>
-                  <span className="links">FAQ </span>{' '}
-                </Link>
+                <a href="#about" className='links'>About</a>
               </li>
               <li>
-                <Link to={`#prizes`}>
+                {/* <Link to={`prizes`}>
                   <span className="links">prizes </span>{' '}
-                </Link>
+                </Link> */}
+                <a href="#prizes" className='links'>Prizes</a>
               </li>
               <li>
-                <Link to={`#sponsors`}>
+                {/* <Link to={`#sponsors`}>
                   <span className="links">sponsors </span>{' '}
-                </Link>
+                </Link> */}
+                <a href="#sponsors" className='links'>Sponsors</a>
               </li>
               <li>
-                <Link to={`#team`}>
+                {/* <Link to={`#faq`}>
+                  <span className="links">FAQ </span>{' '}
+                </Link> */}
+                <a href="#faq" className='links'>FAQ</a>
+              </li>
+              <li>
+                {/* <Link to={`#team`}>
                   <span className="links">team </span>{' '}
-                </Link>
+                </Link> */}
+                <a href="#team" className='links'>Team</a>
               </li>
             </ul>
           </div>
