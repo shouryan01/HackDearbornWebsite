@@ -64,16 +64,5 @@
     "@types/styled-components": "^5.1.26",
     "gh-pages": "^4.0.0",
     "husky": "^8.0.2"
-  },
-  "description": "### Thanks [ella](https://github.com/eilla1) for design snippets",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Limbo-Hacks/Limbo-hacks-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
   }
 }
