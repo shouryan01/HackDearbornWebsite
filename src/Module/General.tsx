@@ -31,7 +31,7 @@ import shouryan from './Assets/teami/shouryan.png';
 const TOP_SECTION = {
   TITLE: 'Hack-Dearborn',
   Typed_effect: [
-    '24 hours in-person event',
+    '24hrs in-person event',
     'Eat, Network and CODE!',
     'Win Prizes!',
     'Land Internships!'
@@ -40,7 +40,7 @@ const TOP_SECTION = {
     'Join us on March 11th 2023 for 24 hours of fun, innovation and creation!',
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: 'https://tally.so/r/3jaKK6',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://tally.so/r/mOD6VR',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://xaaap0wp32v.typeform.com/to/Ka85FoVZ#university=xxxxx',
   GDSC_LINK: 'https://gdsc.community.dev/university-of-michigan-dearborn-mi/',
 };
 
@@ -51,7 +51,7 @@ const SOCIALS = {
   linkedin: 'https://www.linkedin.com/company/gdsc-dearborn/',
   twitter: 'https://twitter.com/HacksLimbo',
   devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:dearbornhacks@gmail.com'
+  email: 'mailto:info@hackdearbon.org'
 };
 
 //shams
@@ -377,18 +377,18 @@ const frequentlyAskedQuestions = [
         label: 'How do teams work?',
         content:
           "You can form team with up to 4 members. We encourage you to bring your friends to form a team! If you don't have a team, there'll be plenty of opportunities for you to meet other hackers and form a team!"
-      }
+      },
+      {
+        label: 'Can I participate virtually?',
+        content:
+          'This event will be an exclusively in-person event held at the University Center on the University of Michigan Dearborn campus. We will not be offering a virtual option for this event.'
+      },
     ],
     [
       {
         label: 'How to register for the hackathon?',
         content:
           'All you need is to fill our form above! We will send you an email confirmation and a link to join the Discord.'
-      },
-      {
-        label: 'I have more questions?',
-        content:
-          'Reach us directly at dearbornhacks@gmail.com, we would happy to help you.'
       },
       {
         label: 'Can I volunteer?',
@@ -399,7 +399,12 @@ const frequentlyAskedQuestions = [
         label: 'Will there be swag?',
         content:
           'Yes! All participants will receive some swag. Those who end up demoing their project will receive even more swag!'
-      }
+      },
+      {
+        label: 'I have more questions.',
+        content:
+          'Reach us directly at info@hackdearborn.org, we would happy to help you.'
+      },
     ]
   ]
 ];
