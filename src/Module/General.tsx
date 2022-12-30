@@ -40,7 +40,7 @@ const TOP_SECTION = {
     'Join us on March 11th 2023 for 24 hours of fun, innovation and creation!',
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: 'https://tally.so/r/3jaKK6',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://xaaap0wp32v.typeform.com/to/Ka85FoVZ#university=xxxxx',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://form.typeform.com/to/Ka85FoVZ#university=xxxxx',
   GDSC_LINK: 'https://gdsc.community.dev/university-of-michigan-dearborn-mi/',
 };
 
@@ -58,7 +58,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'What is Hack-Dearborn?',
   LONG_DESCRIPTION:
-    'Hack Dearborn is an upcoming annual hackathon in southeast Michigan. Hack Dearborn will be hosted at the University of Michigan Dearborn by the Google Developer Student Clubs chapter at the University. Hack Dearborn aims to provide students with a creative space to solve problemsand create real world solutions using technology.',
+    'Hack Dearborn is an upcoming annual hackathon in southeast Michigan. Hack Dearborn will be hosted at the University of Michigan Dearborn by the Google Developer Student Clubs chapter at the University. Hack Dearborn aims to provide students with a creative space to solve problems and create real world solutions using technology.',
   LOGO: hackathonLogo
 };
 
@@ -210,13 +210,13 @@ const TrackInfo = [
     //Array 1
     {
       icon: <i></i>,
-      type: 'Automotive',
+      type: 'Automotive 🚗',
       content:
         'Vroom vroom! Detroit is the motor city. Create or implement a creative solution to an automotive issue or idea'
     },
     {
       icon: <i></i>,
-      type: 'Social Good Track',
+      type: 'Social Good Track 😇',
       content:
         'They say it takes a village to raise a child, and this is a way to make a difference in your village (community)! Social issues include community service, inclusion, and healthcare. Teams will create solutions in these areas'
     },
@@ -224,13 +224,13 @@ const TrackInfo = [
   [
     {
       icon: <i></i>,
-      type: 'Creativity Track',
+      type: 'Creativity Track 💡',
       content:
         'Have an idea that can make someone smile? Or can not be fit into a box? The creativity track is for you! Teams to explore game creation, entertainment applications'
     },
     {
       icon: <i></i>,
-      type: 'Sustainability Track',
+      type: 'Sustainability Track 🌳',
       content:
         'For all the tree huggers and earth lovers out there, we see you! Propose a challenge statement to teams that addresses sustainability: pollution, climate change, and recycling.'
     }
