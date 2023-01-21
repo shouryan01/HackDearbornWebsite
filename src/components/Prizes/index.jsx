@@ -10,7 +10,7 @@ function PrizeHeading(props) {
 
 function FirstPrize(props) {
   return (
-    <div className="Prizes">
+    <div className="Prizes" style={{textAlign: "center"}}>
       {props.icon}
       <h2>{props.type}</h2>
       <p>{props.content}</p>
@@ -18,4 +18,5 @@ function FirstPrize(props) {
   );
 }
 
-export {FirstPrize, PrizeHeading};
+export { FirstPrize, PrizeHeading };
+

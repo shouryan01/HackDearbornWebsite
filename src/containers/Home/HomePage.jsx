@@ -9,8 +9,7 @@ import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
-  SponsorsHead,
-  SponsorUS
+  SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
 import { Member } from '../../components/Team';
 import {
@@ -37,9 +36,9 @@ const SponsorGroup = (props, index) => {
 // Track group
 const TrackGroup = (props, index) => {
   return (
-    <Row key={index} style={{textAlign: "center"}}>
+    <Row key={index}>
       {props.map((s, i) => (
-        <Col key={i} sm={12} lg={6} md={6} style={{textAlign: "center"}}>
+        <Col key={i} sm={12} lg={6} md={6}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
@@ -127,8 +126,10 @@ export default function HomePage() {
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+          <br /><br /><br />
+          {/* <SponsorUS /> */}
+            {sponsorLogos.map(SponsorGroup)}
+          
         </Row>
         {/* ********Sponsors ending here ***** */}
 

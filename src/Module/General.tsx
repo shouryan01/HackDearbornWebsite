@@ -7,11 +7,11 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  */
 
 import Amazon from './Assets/sponsorsLogos/Amazon.png';
-import Bosch_logo from './Assets/sponsorsLogos/Bosch_logo.png';
-import CECS from './Assets/sponsorsLogos/CECS.png';
-import Etas from './Assets/sponsorsLogos/etas.png';
+import Bosch_logo from './Assets/sponsorsLogos/bschlogo.png';
+import ETAS_Logo from './Assets/sponsorsLogos/etasLogo.png';
 import Ford from './Assets/sponsorsLogos/Ford.png';
 import Forvia from './Assets/sponsorsLogos/Forvia.png';
+import lce from './Assets/sponsorsLogos/little-caesars-logo.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -343,8 +343,8 @@ const TeamInfo = [
 
 //all of us
 const sponsorLogos = [
-  [{src: Ford}, {src: Bosch_logo}, {src: Etas}, {src: Amazon}], //Array 1
-  [{src: Forvia}, {src: CECS}]
+  [{src: Ford}, {src: Amazon}, {src: Bosch_logo}], //Array 1
+  [, {src: Forvia}, {src: lce}, {src: ETAS_Logo}],
   // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
