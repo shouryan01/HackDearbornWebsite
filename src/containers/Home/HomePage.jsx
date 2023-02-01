@@ -51,7 +51,7 @@ const TeamMembers = (props, index) => {
   return (
     <Row key={index} className="members">
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
+        <Col key={i} className="" sm={12} lg={3} md={4}>
           <Member info={s} />
         </Col>
       ))}

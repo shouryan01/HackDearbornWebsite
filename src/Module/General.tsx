@@ -12,6 +12,7 @@ import ETAS_Logo from './Assets/sponsorsLogos/etasLogo.png';
 import Ford from './Assets/sponsorsLogos/Ford.png';
 import Forvia from './Assets/sponsorsLogos/Forvia.png';
 import lce from './Assets/sponsorsLogos/little-caesars-logo.png';
+import stickers from './Assets/sponsorsLogos/sticker.png';
 
 import arduino from './Assets/prizeImages/arduino.png';
 import drone from './Assets/prizeImages/drone.png';
@@ -36,6 +37,7 @@ import kanika from './Assets/teami/kanika.jpg';
 import rohit from './Assets/teami/rohit.jpg';
 import shams from './Assets/teami/shams.jpg';
 import shouryan from './Assets/teami/shouryan.png';
+import zahra from './Assets/teami/zahra.jpeg';
 
 //faith
 const TOP_SECTION = {
@@ -272,10 +274,7 @@ const TeamInfo = [
       role: 'Shams',
       linkedin: 'https://www.linkedin.com/in/shams-ahson-6453ab210/',
       img: shams
-    }
-  ],
-  [
-    //Array 2
+    },
     {
       role: 'Rohit',
       linkedin: 'https://www.linkedin.com/in/r-s-nair/',
@@ -290,7 +289,12 @@ const TeamInfo = [
       role: 'Kanika',
       linkedin: 'https://www.linkedin.com/in/kanikamohan7/',
       img: kanika
-    }
+    },
+    {
+      role: 'Zahra',
+      linkedin: 'http://www.linkedin.com/in/zahraa-alhmood',
+      img: zahra
+    },
   ]
 ];
 
@@ -304,7 +308,7 @@ const TeamInfo = [
 const sponsorLogos = [
   [{src: Ford}, {src: Amazon}, {src: Bosch_logo}], //Array 1
   [, {src: Forvia}, {src: lce}, {src: ETAS_Logo}],
-  // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+  [{src: stickers, name:"http://hackp.ac/mlh-StandOutStickers-hackathons"}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];

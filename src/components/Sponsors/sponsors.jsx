@@ -12,8 +12,21 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor ">
-      <img src={props.srcx} alt="Hack Dearborn"></img>
-      <h3>{props.namex}</h3>
+      {props.namex !== "http://hackp.ac/mlh-StandOutStickers-hackathons" 
+        &&
+        <>
+          <img src={props.srcx} alt="Hack Dearborn"></img>
+          <h3>{props.namex}</h3>
+        </>
+      }
+      {props.namex === "http://hackp.ac/mlh-StandOutStickers-hackathons" 
+        &&
+        <>
+          <a href="http://hackp.ac/mlh-StandOutStickers-hackathons">
+            <img src={props.srcx} alt="Hack Dearborn"></img>
+          </a>
+        </>
+      }
     </div>
   );
 }
