@@ -13,6 +13,7 @@ function Sponsor(props) {
   return (
     <div className="Sponsor ">
       <img src={props.srcx} alt="Hack Dearborn"></img>
+      <h3>{props.namex}</h3>
     </div>
   );
 }

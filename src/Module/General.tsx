@@ -13,6 +13,16 @@ import Ford from './Assets/sponsorsLogos/Ford.png';
 import Forvia from './Assets/sponsorsLogos/Forvia.png';
 import lce from './Assets/sponsorsLogos/little-caesars-logo.png';
 
+import arduino from './Assets/prizeImages/arduino.png';
+import drone from './Assets/prizeImages/drone.png';
+import gcpBox from './Assets/prizeImages/gcpSwag.png';
+import hydro from './Assets/prizeImages/hydro.png';
+import keychron from './Assets/prizeImages/keychron.png';
+import logitech from './Assets/prizeImages/logitech.png';
+import metaQuest from './Assets/prizeImages/Oculus_Quest2.png';
+import sony from './Assets/prizeImages/sonyHeadphones.png';
+import switchPrize from './Assets/prizeImages/switchPic.png';
+
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -284,57 +294,6 @@ const TeamInfo = [
   ]
 ];
 
-// still not decided
-// const JudgesInfo = [
-  // {
-  //   name: 'Shouryan',
-  //   role: 'Judge',
-  //   linkedin: 'https://www.linkedin.com/in/shouryannikam/',
-  //   github: '',
-  // }
-  /* [
-    //Array 1
-    {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: me
-    },
-    {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
-    }
-  ] */  
-// ];
-
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
  * create as many arrays you want all logos will be rendered
@@ -348,6 +307,12 @@ const sponsorLogos = [
   // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+];
+
+const prizeImages = [
+  [{src: metaQuest, name: "Meta Quest 2 VR Headset"}, {src: sony, name: "Sony Noise-Cancelling Headphones"}, {src: switchPrize, name: "Nintendo Switch"}],
+  [{src: drone, name: "DJI Drone"}, {src: keychron, name: "Keychron Mechanical Keyboard"}, {src: hydro, name: "Hydroponics Garden Kit"}],
+  [{src: gcpBox, name: "Google Cloud Swag Box"}, {src: arduino, name: "Arduino Starter Kit"}, {src: logitech, name:"Logitech Bluetooth Mouse+Keyboard"}]
 ];
 
 /** Instructions
@@ -417,7 +382,7 @@ export {
   TrackInfo,
   sponsorLogos,
   TeamInfo,
-  // JudgesInfo,
+  prizeImages,
   frequentlyAskedQuestions,
   schedule,
   calenderStartingDate

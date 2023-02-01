@@ -14,7 +14,7 @@ import {
 import { Member } from '../../components/Team';
 import {
   FOOTER,
-  frequentlyAskedQuestions, sponsorLogos, TeamInfo, TrackInfo
+  frequentlyAskedQuestions, prizeImages, sponsorLogos, TeamInfo, TrackInfo
 } from '../../Module/General';
 import MyCalender from '../calender';
 import './about.css';
@@ -26,7 +26,7 @@ const SponsorGroup = (props, index) => {
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={6}>
           {' '}
-          <Sponsor srcx={s.src} />{' '}
+          <Sponsor srcx={s.src} namex={s.name} />{' '}
         </Col>
       ))}
     </Row>
@@ -112,14 +112,15 @@ export default function HomePage() {
           <PrizeHeading type="Tracks" />
             {TrackInfo.map(TrackGroup)}
         </Row>
-        {/* ********Prizes ending here ***** */}
+        {/* ********Tracks ending here ***** */}
 
 
+        {/* ********Prizes here ***** */}
         <div id="prizes" style={{marginTop: "6%"}}></div>
         <Row className="prizesection">
           <h1> {"‎ "}</h1>
           <PrizeHeading type="Prizes" />
-          <h2>coming soon... (hint CASH and Apple products!)</h2>
+          {prizeImages.map(SponsorGroup)}
         </Row>
 
         {/* ********Sponsors here ***** */}
