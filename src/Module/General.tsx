@@ -51,7 +51,7 @@ const TOP_SECTION = {
   SHORT_DESCRIPTION:
     'Join us on March 11th 2023 for 24 hours of fun, innovation and creation!',
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK: 'https://tally.so/r/3jaKK6',
+  JUDGES_FORM_LINK: 'https://form.typeform.com/to/ls29erhF#university=xxxxx',
   HACKERS_REGISTRATION_FORM_LINK: 'https://form.typeform.com/to/Ka85FoVZ#university=xxxxx',
   GDSC_LINK: 'https://gdsc.community.dev/university-of-michigan-dearborn-mi/',
 };
@@ -78,11 +78,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://tally.so/r/3jaKK6'
+    src: 'https://form.typeform.com/to/ls29erhF#university=xxxxx'
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://tally.so/r/mOD6VR'
+    src: 'https://form.typeform.com/to/ls29erhF#university=xxxxx'
   },
   Privacy_policy: {
     required: true,
