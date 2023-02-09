@@ -8,21 +8,23 @@ import hackathonLogo from './Assets/hackathonLogo.png';
 
 import Amazon from './Assets/sponsorsLogos/Amazon.png';
 import Bosch_logo from './Assets/sponsorsLogos/bschlogo.png';
+import cecs from './Assets/sponsorsLogos/CECS_vertical.png';
 import ETAS_Logo from './Assets/sponsorsLogos/etasLogo.png';
 import Ford from './Assets/sponsorsLogos/Ford.png';
 import Forvia from './Assets/sponsorsLogos/Forvia.png';
+import github from './Assets/sponsorsLogos/github.png';
 import lce from './Assets/sponsorsLogos/little-caesars-logo.png';
 import stickers from './Assets/sponsorsLogos/sticker.png';
 
+import printer from './Assets/prizeImages/3dprinter.png';
 import arduino from './Assets/prizeImages/arduino.png';
 import drone from './Assets/prizeImages/drone.png';
+import fujifilm from './Assets/prizeImages/fujifilm.png';
 import gcpBox from './Assets/prizeImages/gcpSwag.png';
 import hydro from './Assets/prizeImages/hydro.png';
-import keychron from './Assets/prizeImages/keychron.png';
-import logitech from './Assets/prizeImages/logitech.png';
 import metaQuest from './Assets/prizeImages/Oculus_Quest2.png';
-import sony from './Assets/prizeImages/sonyHeadphones.png';
-import switchPrize from './Assets/prizeImages/switchPic.png';
+import sony from './Assets/prizeImages/sonyXM5.png';
+import switchPrize from './Assets/prizeImages/switchlite1.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -31,6 +33,7 @@ import switchPrize from './Assets/prizeImages/switchPic.png';
 
 // Importing all Team members images  from Assets
 
+import eejoy from './Assets/teami/eejoy.jpg';
 import faith from './Assets/teami/faith.png';
 import huda from './Assets/teami/huda.png';
 import kanika from './Assets/teami/kanika.jpg';
@@ -63,7 +66,7 @@ const SOCIALS = {
   linkedin: 'https://www.linkedin.com/company/gdsc-dearborn/',
   twitter: 'https://twitter.com/HacksLimbo',
   devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:info@hackdearbon.org'
+  email: 'mailto:info@hackdearborn.org'
 };
 
 //shams
@@ -261,39 +264,44 @@ const TeamInfo = [
   [
     //Array 1
     {
-      role: 'Shouryan',
+      role: 'Shouryan Nikam',
       linkedin: 'https://www.linkedin.com/in/shouryannikam/',
       img: shouryan
     },
     {
-      role: 'Faith',
+      role: 'Faith Long',
       linkedin: 'https://www.linkedin.com/in/faith-long-40963b168/',
       img: faith
     },
     {
-      role: 'Shams',
+      role: 'Shams Ahson',
       linkedin: 'https://www.linkedin.com/in/shams-ahson-6453ab210/',
       img: shams
     },
     {
-      role: 'Rohit',
+      role: 'Rohit Nair',
       linkedin: 'https://www.linkedin.com/in/r-s-nair/',
       img: rohit
     },
     {
-      role: 'Huda',
+      role: 'Huda Hussaini',
       linkedin: 'https://www.linkedin.com/in/huda248/',
       img: huda
     },
     {
-      role: 'Kanika',
+      role: 'Kanika Mohan',
       linkedin: 'https://www.linkedin.com/in/kanikamohan7/',
       img: kanika
     },
     {
-      role: 'Zahra',
+      role: 'Zahra Alhmood',
       linkedin: 'http://www.linkedin.com/in/zahraa-alhmood',
       img: zahra
+    },
+    {
+      role: 'Eejoy Lim',
+      linkedin: 'https://www.linkedin.com/in/eejoylim',
+      img: eejoy
     },
   ]
 ];
@@ -308,15 +316,15 @@ const TeamInfo = [
 const sponsorLogos = [
   [{src: Ford}, {src: Amazon}, {src: Bosch_logo}], //Array 1
   [, {src: Forvia}, {src: lce}, {src: ETAS_Logo}],
-  [{src: stickers, name:"http://hackp.ac/mlh-StandOutStickers-hackathons"}], //Array 2
+  [{src: stickers, name:"http://hackp.ac/mlh-StandOutStickers-hackathons"}, {src: github}, {src: cecs}], //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 const prizeImages = [
   [{src: metaQuest, name: "Meta Quest 2 VR Headset"}, {src: sony, name: "Sony Noise-Cancelling Headphones"}, {src: switchPrize, name: "Nintendo Switch"}],
-  [{src: drone, name: "DJI Drone"}, {src: keychron, name: "Keychron Mechanical Keyboard"}, {src: hydro, name: "Hydroponics Garden Kit"}],
-  [{src: gcpBox, name: "Google Cloud Swag Box"}, {src: arduino, name: "Arduino Starter Kit"}, {src: logitech, name:"Logitech Bluetooth Mouse+Keyboard"}]
+  [{src: drone, name: "DJI Drone"}, {src: printer, name: "3D Printer"}, {src: hydro, name: "Hydroponics Smart Garden"}],
+  [{src: gcpBox, name: "Google Cloud Swag Box"}, {src: arduino, name: "Arduino Starter Kit"}, {src: fujifilm, name:"Fujifilm Instant Camera Kit"}]
 ];
 
 /** Instructions

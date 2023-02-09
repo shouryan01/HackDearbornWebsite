@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Volunteer Registration" />
+            <Btn type="Register" overlay="Hacker Registration" />
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
