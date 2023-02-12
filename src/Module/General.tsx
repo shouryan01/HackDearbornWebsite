@@ -120,52 +120,67 @@ const schedule = [
       },
       {
         title: 'Sponsor Fair',
-        timings: '10 AM - 12 PM',
+        timings: '10 AM - 11:15 AM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
         title: 'Opening Ceremony',
-        timings: '12 PM - 12:45 PM',
-        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
-      },
-      {
-        title: 'Team Formation',
-        timings: '12:45 PM - 1:30 PM',
+        timings: '11:15 AM - 12 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
         title: 'Hacking Begins!',
-        timings: '1 PM',
+        timings: '12 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Workshop',
+        title: 'Team Formation',
+        timings: '12 PM - 12:30 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Lunch',
+        timings: '12 PM - 1 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'ML With Google Cloud Workshop',
         timings: '2 PM - 3 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Speaker',
-        timings: '3 PM - 4 PM',
+        title: 'Make Your Own Chatbot Workshop',
+        timings: '2 PM - 3 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Workshop',
+        title: 'Intro To Flutter Workshop',
         timings: '4 PM - 5 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Game',
+        title: 'Sponsor Workshop',
+        timings: '4 PM - 5 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Games and Activities',
         timings: '5 PM - 6 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
         title: 'Dinner!',
-        timings: '6 PM - 7:30 PM',
+        timings: '6 PM - 7 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Game',
-        timings: '9 PM - 10 PM',
+        title: 'Games and Activities',
+        timings: '9 PM - 11 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Doors Lock For Your Safety',
+        timings: '11 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
     ]
@@ -179,13 +194,23 @@ const schedule = [
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Speaker',
-        timings: '10 AM - 11 AM',
+        title: 'Breakfast',
+        timings: '8 AM - 9 AM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Pitching 101 Workshop',
+        timings: '9:30 AM - 10:30 AM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
         title: 'End of Hacking!',
-        timings: '1 PM',
+        timings: '12 PM',
+        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
+      },
+      {
+        title: 'Demo Tables',
+        timings: '12 PM - 1 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
@@ -194,13 +219,8 @@ const schedule = [
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
       {
-        title: 'Demo Tables',
-        timings: '2 PM - 3 PM',
-        link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
-      },
-      {
         title: 'Closing Ceremony!',
-        timings: '3:45 PM - 4:30 PM',
+        timings: '2:15 PM - 3:30 PM',
         link: 'https://calendar.google.com/calendar/u/0?cid=Y19lNWY2NzViMmZkYTY4MDJhOTM2YWE5MzBjNjhmMDkwYjgyNzg2NzUwZGYxYjcyNzRmMzg2MTEyYjIwNDM2N2Q4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20'
       },
     ]
