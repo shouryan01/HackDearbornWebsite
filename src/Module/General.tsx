@@ -44,7 +44,7 @@ import zahra from './Assets/teami/zahra.jpeg';
 
 //faith
 const TOP_SECTION = {
-  TITLE: 'Hack-Dearborn',
+  TITLE: 'Hack Dearborn',
   Typed_effect: [
     '24hrs in-person event',
     'Eat, Network and CODE!',
@@ -55,7 +55,7 @@ const TOP_SECTION = {
     'Join us on March 11th 2023 for 24 hours of fun, innovation and creation!',
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: 'https://form.typeform.com/to/ls29erhF#university=xxxxx',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://form.typeform.com/to/Ka85FoVZ#university=xxxxx',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://forms.gle/cnZjcWK525jQxBUZ7',
   GDSC_LINK: 'https://gdsc.community.dev/university-of-michigan-dearborn-mi/',
 };
 
@@ -71,7 +71,7 @@ const SOCIALS = {
 
 //shams
 const MIDDLE_SECTION = {
-  TITLE: 'What is Hack-Dearborn?',
+  TITLE: 'What is Hack Dearborn?',
   LONG_DESCRIPTION:
     'Hack Dearborn is an upcoming annual hackathon in southeast Michigan. Hack Dearborn will be hosted at the University of Michigan Dearborn by the Google Developer Student Clubs chapter at the University. Hack Dearborn aims to provide students with a creative space to solve problems and create real world solutions using technology.',
   LOGO: hackathonLogo

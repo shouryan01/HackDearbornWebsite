@@ -41,7 +41,7 @@ const Myinfo = () => {
           <Btn
             class="register"
             type="Register "
-            overlay="Hacker registration"
+            overlay="Join Waitlist"
           />
         </a>
       </div>
