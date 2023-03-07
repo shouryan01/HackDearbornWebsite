@@ -6,15 +6,18 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  * or you can provide a cloud link in src also
  */
 
+import { default as aifuture } from './Assets/sponsorsLogos/AIFuture.png';
 import Amazon from './Assets/sponsorsLogos/Amazon.png';
 import Bosch_logo from './Assets/sponsorsLogos/bschlogo.png';
 import cecs from './Assets/sponsorsLogos/CECS_vertical.png';
+import echo3d2 from './Assets/sponsorsLogos/echo3d2-removebg-preview.png';
 import ETAS_Logo from './Assets/sponsorsLogos/etasLogo.png';
 import Ford from './Assets/sponsorsLogos/Ford.png';
 import Forvia from './Assets/sponsorsLogos/Forvia.png';
 import github from './Assets/sponsorsLogos/github.png';
 import lce from './Assets/sponsorsLogos/little-caesars-logo.png';
 import stickers from './Assets/sponsorsLogos/sticker.png';
+import verbwire from './Assets/sponsorsLogos/verbwire.jpg';
 
 import printer from './Assets/prizeImages/3dprinter.png';
 import arduino from './Assets/prizeImages/arduino.png';
@@ -269,7 +272,15 @@ const TrackInfo = [
       content:
         'For all the tree huggers and earth lovers out there, we see you! Propose a challenge statement to teams that addresses sustainability: pollution, climate change, and recycling.'
     }
-  ]
+  ],
+  [
+    {
+      icon: <i></i>,
+      type: 'Web3 Track 🌐',
+      content:
+        'Use the VerbWire API to win $200 per team! There is $9k in API credits to be won as well!'
+    },
+  ],
 ];
 
 
@@ -337,6 +348,7 @@ const sponsorLogos = [
   [{src: Ford}, {src: Amazon}, {src: Bosch_logo}], //Array 1
   [, {src: Forvia}, {src: lce}, {src: ETAS_Logo}],
   [{src: stickers, name:"http://hackp.ac/mlh-StandOutStickers-hackathons"}, {src: github}, {src: cecs}], //Array 2
+  [{src: aifuture}, {src: echo3d2}, {src: verbwire}] //Array 2
   // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
   // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
